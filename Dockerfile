@@ -19,7 +19,13 @@ RUN apt-get install -y\
   traceroute\
   vim\
   wget\
-  zip
+  zip\
+  curl\
+  net-tools\
+  traceroute\
+  inetutils-traceroute\
+  iproute2\
+  sqlite3
 RUN useradd -m --uid ${DOCKER_UID} --groups sudo ${DOCKER_USER} \
   && echo ${DOCKER_USER}:${DOCKER_PASSWORD} | chpasswd
 USER ${DOCKER_USER}
