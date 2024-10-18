@@ -1,1 +1,4 @@
-Defaults        lecture = never
+Defaults	lecture = "never"
+Defaults  visiblepw
+Defaults  editor = "/usr/bin/emacs"
+Defaults  env_keep += "EDITOR"
