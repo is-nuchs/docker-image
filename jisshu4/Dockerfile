@@ -15,6 +15,7 @@ RUN yum install -y \
     man-pages \
     man-pages-ja \
     man-pages-overrides \
+    file \
     less \
     emacs
 RUN yum reinstall -y glibc-common
